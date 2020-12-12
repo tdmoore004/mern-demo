@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node server/server.js",
     "start:server": "nodemon server/server.js",
-    "start:client": "cd client && npm start",
-    "dev": "concurrently \"npm run start:server\" \"npm run start:client\"",
-    "install": "cd client && npm",
+    "start:client": "cd client && yarn start",
+    "dev": "concurrently \"yarn run start:server\" \"yarn run start:client\"",
+    "install": "cd client && yarn",
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
